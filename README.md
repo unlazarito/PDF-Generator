@@ -18,7 +18,7 @@ This Python script utilizes the `fpdf` library to generate a PDF document based 
 
 2. Run the script using:
     ```bash
-    python script_name.py
+    python main.py
     ```
 
 3. The script will read the CSV file, generate a PDF (`pdf-template.pdf`), and populate it with topics and pages.
