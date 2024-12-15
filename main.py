@@ -25,4 +25,4 @@ for index, row in df.iterrows():
         set_text_color(r=100, g=100, b=100)
         pdf.cell(w=0, h=10, txt=row["Topic"], align='R')
 
-pdf.ougput('pdf-template.pdf')
+pdf.output('pdf-template.pdf')
